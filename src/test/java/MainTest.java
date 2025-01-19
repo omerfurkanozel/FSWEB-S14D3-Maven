@@ -39,7 +39,7 @@ public class MainTest {
         car = new Car(4, "Mercedes");
         mitsubishi = new Mitsubishi(4, "Mitsubishi");
         holden = new Holden(4, "Holden");
-        ford = new Ford(4, "Ford");
+        ford = new Ford("Ford", 4);
         carSkeleton = new CarSkeleton("Test", "test");
         electricCar = new ElectricCar("Test", "test", 10, 5);
         gasPoweredCar = new GasPoweredCar("Test", "test", 10, 4);
